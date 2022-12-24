@@ -31,7 +31,7 @@ Screenshoots in "./screenshot" folder
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/Artsia/Generate-Advice
 - Live Site URL: https://advice-generate-app.netlify.app/
 
 ## My process
