@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-Screenshoots in "./screenshot" folder
+Click on Web capture_24-12-2022_162751_127.0.0.1.jpeg file
 
 ### Links
 
