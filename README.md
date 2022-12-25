@@ -32,7 +32,7 @@ Click on Web capture_24-12-2022_162751_127.0.0.1.jpeg file
 ### Links
 
 - Solution URL: https://github.com/Artsia/Generate-Advice
-- Live Site URL: https://advice-generate-app.netlify.app/
+- Live Site URL: https://phillip-gen-advice.netlify.app/
 
 ## My process
 
