@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Manrope:wght@800&family=Montserrat:wght@700&family=Outfit:wght@300;400;600&display=swap');
 
+@media only screen and (max-width: 1440px){
 
 /*universal tag*/
 
@@ -75,20 +76,87 @@ main {
     width: 19px;
 }
 
+}
+
 
 /*quries*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
 
-   
-
-   
-
-    main {
-
-        background-color: rgb(18, 99, 213);
-        margin-left: 150px;
-        margin-right: 150px;
-
-
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /*google font*/
     }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        height: 1000px;
+        align-items: center;
+        background-color: hsl(218, 23%, 16%);
+        font-family: 'Manrope';
+    }
+    
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: hsl(217, 19%, 24%);
+        height: fit-content;
+        /*resize accordigly to fit size of fetched data(advice)*/
+        width: fit-content;
+        /*resize accordigly to fit size of fetched data(advice)*/
+        width: 275px;
+        padding: 10px;
+        border-radius: 2%;
+    }
+    
+    .id-container {
+        color: rgb(124, 229, 229);
+    }
+    
+    #advice-id {
+        font-size: 9px;
+        color: rgb(124, 229, 229);
+        margin: 6px;
+    }
+    
+    .text-container {
+        margin:  9px;
+        font-size:  9px;
+        width: 66%;
+        color: rgb(124, 229, 229);
+    }
+    
+    
+    
+    #divider {
+        margin: 4px;
+        margin-bottom: 5px;
+        width: 250px;
+    
+    }
+    
+    /*button*/
+    
+    #btn-dice {
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 50%;
+        padding: 11px 12px 8px;
+        border: 0;
+        margin: 0 auto -20px;
+        cursor: pointer;
+        /*display hand pointer when mouse hovers button*/
+    }
+    
+    #btn-dice img {
+        width: 10px;
+    }
+    
+
+   
+
+   
 }
