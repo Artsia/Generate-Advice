@@ -77,7 +77,14 @@ main {
     width: 19px;
 }
 
+@media only screen and (min-width: 340px) and (max-width: 900px) {
+    *{
+        font-size: small;
+    }
 
+    
+
+}
 
 
 /*quries*/
@@ -87,6 +94,7 @@ main {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        width: auto;
         /*google font*/
     }
     
@@ -109,7 +117,7 @@ main {
         /*resize accordigly to fit size of fetched data(advice)*/
         width: fit-content;
         /*resize accordigly to fit size of fetched data(advice)*/
-        width: 275px;
+        width: 255px;
         padding: 10px;
         border-radius: 2%;
     }
