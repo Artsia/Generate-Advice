@@ -20,11 +20,14 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor]
 Solution URL: https://github.com/Artsia/Generate-Advice
 Live Site URL: https://phillip-gen-advice.netlify.app/
 
+## Roles
+    Developer
+
 ## My process
 
 ### Built with
 
-    HTML5, CSS, Flexbox, JavaScript, Fetch API
+    HTML5, CSS, Flexbox, JavaScript, Fetch API, Slip Advice API
 
 ### Useful resources
 
